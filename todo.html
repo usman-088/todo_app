@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="todo.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="main">
+        <h2>To Do List</h2>
+        <div class="head">
+            <input onkeydown="press()" type="text" id="inp" placeholder="Add a task...">
+            <button onclick="check()"  id="addBtn">Add</button>
+            <button onclick="del()" id="delBtn" >Delete All</button>
+        </div>
+        <div id="list">
+
+        </div>
+       
+    </div>
+    <div>
+        <a href="index.html" class="logout">Logout</a>
+    </div>
+
+
+
+
+
+    <script src="todo.js"></script>
+</body>
+
+</html>

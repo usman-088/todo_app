@@ -5,8 +5,51 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="signUp.css">
+
+    <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-database.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-analytics.js"></script>
+
+<script>
+  var firebaseConfig = {
+    apiKey: "AIzaSyCedqamUM7OlrE5HGERDBDeL__YsS-3PZw",
+    authDomain: "todoapp-85b52.firebaseapp.com",
+    databaseURL: "https://todoapp-85b52-default-rtdb.firebaseio.com",
+    projectId: "todoapp-85b52",
+    storageBucket: "todoapp-85b52.appspot.com",
+    messagingSenderId: "1083413839651",
+    appId: "1:1083413839651:web:4e62116a14bbc085d2d696",
+    measurementId: "G-EE5VFVY431"
+  };
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+
 </head>
 <body>
     
+
+    
+    <div class="mainForm">
+        <div class="form">
+            <h3>SignUp Form</h3>
+            <label for="">
+                <input id="email" type="text" placeholder="abc@gmail.com">
+            </label> <br>
+            <label for="">
+                <input id="password" type="password" placeholder="Password">
+            </label> <br>
+            <button onclick="userData()">Sign Up</button>
+            <br>
+            <div class="txt">
+                Login here <a id="login" href="index.html">Login.</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="signUp.js"></script>
+
 </body>
 </html>

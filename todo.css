@@ -1,0 +1,104 @@
+
+body{
+    margin: auto;
+    /* background-image: url(images/download\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: 90%; */
+    /* background-color: rgb(224, 221, 221); */
+}
+.main{
+    margin: auto;
+    margin-top: 5%;
+    border-left: 6px solid rgb(230, 33, 33);
+    box-shadow: 3px 5px 6px rgb(95, 85, 85);
+    border-top-left-radius:4px ;
+    overflow: auto;
+    height:500px;
+    width: 470px;
+    padding: 20px;
+    padding-top: 0%;
+}
+.head{
+    display: block;
+    height: auto;
+}
+input{
+    padding: 10px;
+    margin: 7px;
+    border: none;
+    border-bottom: 2px solid red;
+    width: 240px;
+    font-weight: bolder;
+    font-size: 1em;
+}
+input:focus{
+    outline: none;
+    border-bottom: 2px solid rgb(34, 32, 32);
+}
+
+#addBtn,#delBtn{
+    padding: 10px; 
+    background-color: sandybrown;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-right: 20px;
+    font-weight: bolder;
+    outline: none;
+
+}
+#addBtn:hover{
+    background-color:rgb(187, 117, 51) ;
+    outline: none;
+}
+#delBtn:hover{
+    background-color:rgb(187, 117, 51) ;
+    outline: none;
+}
+.Btnn{
+    padding: 10px;
+    background-color: sandybrown;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-right: 15px;
+    position: static;
+    top: 110px;
+    left: 300px;
+    font-weight: bolder;
+    outline: none;
+
+
+}
+.Btnn:hover{
+    background-color:rgb(187, 117, 51) ;
+    outline: none;
+}
+.card{
+    align-items: center;
+    height: auto;
+    background-color: rgb(245, 245, 245);
+    border-radius: 20px;
+    box-shadow: 3px 3px 4px rgb(95, 85, 85);
+    margin-top: 20px;
+}
+.head{
+    display: flex;
+    justify-content: center;
+}
+h2{
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 30px;
+}
+
+.logout{
+    text-decoration: none;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    border: 2px solid rgb(36, 33, 33) ;
+    border-radius: 5px;
+    color: #fff;
+    background-color: red;
+}
